@@ -1,0 +1,10 @@
+[logging]
+console_level  = "INFO"
+file_level     = "DEBUG"
+file_path      = "logs/app.log"
+console_format = "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+file_format    = "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+
+[app]
+feature_x_enabled = true
+default_timeout_s = 15
